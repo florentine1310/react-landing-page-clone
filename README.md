@@ -1,6 +1,6 @@
 # React Landing Page Clone Project
 
-This project is a recreation with React of the following landing page: https://www.podia.com/?ref=landingfolio
+This project is a recreation with React of the following landing page: https://hagrid.io/
 
 ## Getting Started with Create React App
 
