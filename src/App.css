@@ -7,11 +7,100 @@
   flex-direction: column;
   background-color: #fdefef;
   background-image: url(./images/texture.png);
-  padding: 128px 24px 78px 24px;
+  padding: 128px 0px 78px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeroHeadline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Scribble3 {
+  display: block;
+  position: absolute;
+  justify-self: end;
+  left: -48px;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+}
+
+.Scribble2 {
+  display: block;
+  position: absolute;
+  width: 240px;
+  justify-self: start;
+  background-position: -48px;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+}
+
+.blackButton {
+  background-color: black;
+  height: 76px;
+  width: 200px;
+  border-radius: 0.5rem;
+  font-family:
+    'Be Vietnam',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  box-shadow: 8px 8px 2px -3px rgb(136, 136, 136);
 }
 
 .Results {
   background-image: url(./images/texture.png);
   margin: 0;
   padding: 128px 96px 128px 96px;
+}
+
+.HeroImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+  li {
+    list-style: none;
+  }
+  img {
+    max-width: 300px;
+    max-height: 530px;
+  }
+}
+
+.SubHeadline {
+  padding: 24px 0px 24px 0px;
+  margin: 0px 24px 0px 48px;
+}
+
+.ResultsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 96px;
+}
+
+.ResultsGridItems {
+  display: flex;
+  flex-direction: column;
 }
